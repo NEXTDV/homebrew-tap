@@ -11,11 +11,6 @@ cask "heartbeat" do
 
   app "Heartbeat.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Heartbeat.app"],
-                   sudo: false
-  end
 
   zap trash: [
     "~/Library/Application Support/heartbeat",
