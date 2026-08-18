@@ -1,6 +1,6 @@
 cask "heartbeat" do
   version "0.1.0"
-  sha256 "ef15654d9070f4181233ab5a4e317b8f053cf904c3155ca5997bd17bffc9f083"
+  sha256 "2bdde7fae5eb8237a1e7793c9f740f3cf3544d872c2b9e1e8ca87d0fa7bf2806"
 
   url "https://github.com/NEXTDV/heartbeat-app/releases/download/v#{version}/Heartbeat-#{version}-arm64.dmg"
   name "Heartbeat"
