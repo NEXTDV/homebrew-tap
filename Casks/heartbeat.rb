@@ -1,6 +1,6 @@
 cask "heartbeat" do
-  version "0.1.1"
-  sha256 "bfc39298af760c164d746952b782f07a5e4c7fc34f21594b667405ec1a003c7f"
+  version "0.1.2"
+  sha256 "643b66a9f2de2b0ab88366ae6f514d96eb33116281a7e2f116469719edc04a70"
 
   url "https://github.com/NEXTDV/homebrew-tap/releases/download/v#{version}/Heartbeat-#{version}-arm64.dmg"
   name "Heartbeat"
@@ -10,7 +10,6 @@ cask "heartbeat" do
   depends_on arch: :arm64
 
   app "Heartbeat.app"
-
 
   zap trash: [
     "~/Library/Application Support/heartbeat",
