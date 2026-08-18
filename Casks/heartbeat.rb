@@ -1,6 +1,6 @@
 cask "heartbeat" do
-  version "0.1.3"
-  sha256 "bf7a784d807d057a32f5d84693804e1e668e32ef770ad6bc93661c292779265d"
+  version "0.1.4"
+  sha256 "433e24f506fdd71e3c92afd892cdf48c98647ee02f62b9dcb4d0eaa64616e1b5"
 
   url "https://github.com/NEXTDV/homebrew-tap/releases/download/v#{version}/Heartbeat-#{version}-arm64.dmg"
   name "Heartbeat"
